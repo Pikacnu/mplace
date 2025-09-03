@@ -1,0 +1,25 @@
+{
+  "name": "mplace",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch ./index.ts",
+    "start": "bun ./index.ts "
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^4.1.12"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bun-plugin-tailwind": "^0.0.15",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
