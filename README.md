@@ -62,19 +62,34 @@ The frontend will be available at `http://localhost:3000`
 
 ## 🎮 How to Use
 
-1. **🔐 Register/Sign in** - Use Discord or another supported OAuth provider
-2. **🧱 Select a block** - Choose the texture you want from the block list
-3. **🛠️ Choose a tool** - Brush, line, circle, rectangle, etc.
-4. **🎨 Start drawing** - Click on the canvas to place blocks
-5. **👥 Real-time collaboration** - Create together with other players
+### Paint Method
 
-### 🎨 Drawing Tools
-- **🖌️ Brush** - Place a single block
-- **📏 Line** - Draw a straight line between two points
-- **⭕ Circle** - Draw a circle or ellipse
-- **⬜ Rectangle** - Draw a rectangle outline or fill it
+1. **Register/Sign in** - Use Discord or another supported OAuth provider
+2. **Choose a tool** - None(default), line, circle, rectangle, etc.
+3. **Select a block** - Choose the texture you want from the block list
+4. **Start drawing** - Click on the canvas to place blocks (Details at info of the website on right top corner)
+5. **Paint on Canvas** - Hit the Paint Button at Center
 
-### 🧱 Block System
+### Bot
+
+1. **Uploading file** - Upload an image or nbt file
+2. **Waiting processing** - Server will process your file you need to wait a second
+3. **Set bot count** - Set Bot Count (Which means how many blocks will a bot place one time)
+4. **Wait the canvas update** - Bot will place block after a while.
+
+### Export Tool
+
+1. **Select area** - use Paint Tools like rectangle to select area you want (The first Tool *None* will save pixels at your screen)
+2. **Change Option(Image Only)** - you can make it combine pixels like minecraft done by slide the Combine Block bar
+3. **Click button** - Click the Img / Nbt Button to get the result
+
+### Drawing Tools Types
+- **None** - Just place a single block
+- **Line** - Draw a straight line between two points
+- **Circle** - Draw a circle (with filled varient)
+- **Rectangle** - Draw a rectangle outline or fill it
+
+### Block System
 - Each player has a limited block count
 - Blocks are automatically replenished over time
 - Blocks have 3D height and stack on top of existing blocks
